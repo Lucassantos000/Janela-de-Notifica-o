@@ -1,0 +1,255 @@
+@import{
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+}
+
+*{
+    margin: 0px 5px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #EDEDED;
+}
+
+.principal{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+.content_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: auto;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    background-color: white;
+    width: 250px;
+    height: 550px ;
+
+    margin: auto 5px;
+
+    position: fixed;
+
+    border-radius: 15px;
+    
+}
+
+#logo{
+    display: flex;
+     height: 150px;
+     align-items: center;
+     justify-content: center;
+}
+
+.logo{
+    
+    width: 110px;
+    object-fit: cover;
+    border: #28BFE7 solid 2px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.list{
+    display: flex;
+
+    height: 350px;
+
+    justify-content: center;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.list li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user #logo_user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.header_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 80%;
+    height: 60px;
+
+    background-color:white;
+    border-radius:15px;
+
+   
+}
+
+.input_search{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.lupa{
+    margin-left:20px;
+    position: absolute;
+}
+
+#searchbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+
+    
+
+    
+}
+
+#searchbar h3{
+    margin: auto 10px;
+}
+
+
+#barra_pesquisa{
+    display: flex;
+    
+    border: none;
+    background-color: #F3F2EF;
+    width: 100%;
+    height: 35px;
+
+    margin: 0;
+    padding-left: 45px;
+    padding-top: 4px;
+
+
+    border: rgba(128, 125, 125, 0.4) solid 2px;
+    border-radius: 15px;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-style: oblique;
+    
+
+}
+
+#barra_pesquisa::placeholder{
+    font-size: 17px;
+    font-weight:500
+
+}
+
+#notifications{
+
+    display: flex;
+    flex-direction: column ;
+    width: 80%;  
+    height: auto;
+    
+}
+
+.modal{
+    display: flex;
+
+
+    background-color: white;
+    border-radius: 25px;
+    width: 100%;
+    min-height: 150px;
+
+    margin-top: 30px;
+}
+
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 175px;
+}
+
+.user_post{
+    width: 60px;
+}
+.user_name{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.last_time{
+    font-size: 12px;
+    color: rgba(30, 87, 201, 0.75);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.barra{
+    content: '';
+    background-color: black;
+    width: 3px;
+    height: 100%;
+}
+
+
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.title{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.sub_title{
+    color:darkcyan;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.text_publi{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
